@@ -1,0 +1,45 @@
+
+\chapter{ Chapter 3}
+\label{chap:chapter3}
+\vspace*{-0.3cm}
+reference Test1\cite{Katabi2015}
+and reference Test2\cite{Kisseleff_beam}
+also reference Test3\cite{MZhou}
+
+\section{ Section3.1}
+\label{sec:section3.1}
+
+\subsection{ Subsection3.1.1}
+\label{subsec:subsection3.1.1}
+
+\begin{equation}  \label{eq:3.1}
+M_{ba}=\frac{\phi_{ba}(I_a)}{I_a}=\oint_{A_b}{\frac{B_{b}(I_a)}{I_a}}dA_b.
+\end{equation}
+%
+\begin{figure*}[tbp]
+\begin{center}
+  \psfig{file=test.jpg,width=0.7\textwidth}%
+  \vspace*{-0.3cm}
+  \caption{Figure test}%
+%  \vspace*{-0.5cm}
+  \label{fig3.1}
+\end{center}
+\vspace*{-0.6cm}
+\end{figure*}
+%
+\begin{table}[tbp]
+   \centering
+   \caption{$\,$Table test} % requires the topcapt package
+   \begin{tabular}{@{} ccccc @{}} % Column formatting, @{} suppresses leading/trailing space
+      \hline
+      Medium    & Permittivity & Conductivity & Loss tangent & Thickness \\
+          &   & $(\textrm{simens/m})$ &  &  $(\textrm{mm})$\\
+      \hline
+      Skin (dry)  & 285.25 & 0.24 & 1.11 & 1.97 \\
+      Fat & 11.82 & 0.03 & 3.40 & 5.00 \\
+      Muscle & 138.44 & 0.63  & 6.02 & 30 \\
+      \hline
+ \end{tabular}
+   %\caption{Remember, \emph{never} use vertical lines in tables.}
+   \label{table3.1}
+\end{table}
